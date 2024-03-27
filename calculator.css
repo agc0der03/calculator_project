@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+  }
+  #app {
+    height: 600px;
+    width: 500px;
+    background-color: gray;
+    margin: 6% auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+  }
+  
+  #result-bar {
+    height: 80px;
+    width: 470px;
+    background-color: lightgray;
+    font-size: 30px;
+    /* direction: rtl; */
+    text-align: right; 
+    padding-right: 10px;
+    margin: 10px;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+  }
+  
+  .per_row_4 {
+    height: 80px;
+    width: 112px;
+    background-color: lightgray;
+    /* margin: 10px; */
+    cursor: pointer;
+    display: flex;
+  }
+  .btn {
+    flex-basis: 112px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color:orange;
+  }
+  
+  #zero {
+    /* Double the width of the zero button */
+    flex-basis: calc(50% - 20px);
+  }
+   
+  #zerobtn {
+    /* Double the width of the zero button */
+    flex-basis: 224px;
+  }
+  
+  
+  
+  
